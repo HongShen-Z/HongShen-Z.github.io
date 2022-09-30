@@ -4,14 +4,14 @@
 baseurl:
 url: https://HongShen-Z.github.io
 date_format: "ordinal"
-title: 码志
-subtitle: "公众号：闷骚的程序员"
-description: "马壮的个人博客，公众号：闷骚的程序员"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
+title: 首阳
+subtitle: "博客"
+description: "首阳的个人博客"
+keywords: 首阳, HongShen-Z
 timezone: Asia/Shanghai
 encoding: "utf-8"
 # 页面左下角显示的年份
-since: 2015
+since: 2022
 # 源码仓库，请替换成自己的
 repository: HongShen-Z/HongShen-Z.github.io
 # 对 css 和 js 资源的 cdn 加速配置
@@ -31,7 +31,7 @@ components:
         start_date: 2020-05-03
     # My Popular Repositories
     side_bar_repo:
-        enabled: true
+        enabled: false
         limit: 5
     # 文章字数统计
     word_count:
@@ -39,7 +39,7 @@ components:
     # 页面右上角，以及「关于」页面的二维码
     # 修改图片请替换 assets/images/qrcode.jpg
     qrcode:
-        enabled: true
+        enabled: false
         image_alt: 闷骚的程序员
     # 维基索引页使用哪种视图，支持 列表（list）/分类（cate）
     wiki:
@@ -54,12 +54,12 @@ highlight_theme: github
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
+author: Hongshen Zhao
 organization: 
 organization_url: 
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+github_username: HongShen-Z
+location: Suzhou, China
+email: com.zhs@gmail.com
 
 # ---------------- #
 #    Navigation    #
@@ -81,17 +81,17 @@ navs:
 #     href: /open-source/
 #     label: 开源
 
-  -
-    href: /wiki/
-    label: 维基
+#   -
+#     href: /wiki/
+#     label: 维基
 
   -
     href: /links/
     label: 链接
 
-  -
-    href: /about/
-    label: 关于
+#   -
+#     href: /about/
+#     label: 关于
 
 # ---------------- #
 #       RSS        #
@@ -155,10 +155,10 @@ beaudar:
     repo: mzlogin/blog-comments
 # giscus 配置参考：https://giscus.app/zh-CN
 giscus:
-    repo: mzlogin/blog-comments
-    repo-id: MDEwOlJlcG9zaXRvcnk5MzEyNzkxNw==
+    repo: HongShen-Z/blog-comments
+    repo-id: R_kgDOIGV7Wg
     category: Announcements
-    category-id: DIC_kwDOBY0E7c4CRtg9
+    category-id: DIC_kwDOIGV7Ws4CRt2q
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
